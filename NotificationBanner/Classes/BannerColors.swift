@@ -32,6 +32,14 @@ public class BannerColors: BannerColorsProtocol {
             case .customView:     return UIColor.clear
             case .success:  return UIColor(red:0.22, green:0.80, blue:0.46, alpha:1.00)
             case .warning:  return UIColor(red:1.00, green:0.66, blue:0.16, alpha:1.00)
+            
+            //meeting
+            case .meetingAccepted: return UIColor(red: 56/255, green: 181/255, blue: 73/255, alpha: 1)
+            case .meetingDeclined: return UIColor.darkGray
+            
+            
+            case .connectionError: return UIColor.systemBlue
+            case .error: return UIColor.darkGray
         }
     }
 }
